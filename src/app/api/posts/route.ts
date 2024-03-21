@@ -17,7 +17,30 @@ export async function GET(req: Request) {
          {
             id: 4,
             name: "big burger"
-         }
-        
+         },
+         {
+            id: 5,
+            name: "vodka"
+         },
+         {
+            id: 6,
+            name: "Coca Cola"
+         },
+         {
+            id: 7,
+            name: "Fanta"
+        },
+        {
+            id: 8,
+            name: "Sprite"
+        },
+        {
+            id: 9,
+            name: "shaurma"
+        },
+        {
+            id: 10,
+            name: "ramen"
+        }
         ])
 }
