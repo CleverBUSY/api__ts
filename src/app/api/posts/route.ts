@@ -11,7 +11,7 @@ export async function GET(req: Request) {
          {
             id: 1,
             name: "burger cheez",
-            image: Iimage1
+            image: "https://www.figma.com/file/WaJuCHKKGqmlo5HmNn8o09/Healthy-Food?type=design&node-id=2-402&mode=design&t=lncwzBGR4IFOVSNJ-4"
          },
          {
             id: 2,
