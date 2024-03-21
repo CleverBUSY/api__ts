@@ -8,469 +8,1022 @@ import Iimage6 from "../../../../public/Mask Group.png"
 
 export async function GET(req: Request) {
     return NextResponse.json([
-         {
-            id: 1,
-            name: "burger cheez",
-            image: "https://www.figma.com/file/WaJuCHKKGqmlo5HmNn8o09/Healthy-Food?type=design&node-id=2-402&mode=design&t=lncwzBGR4IFOVSNJ-4"
-         },
-         {
-            id: 2,
-            name: "doner",
-            image: Iimage2
-         },
-         {
-            id: 3,
-            name: "big doner",
-            image: Iimage3
-         },
-         {
-            id: 4,
-            name: "big burger",
-            image: Iimage4
-         },
-         {
-            id: 5,
-            name: "vodka",
-            image: Iimage5
-         },
-         {
-            id: 6,
-            name: "Coca Cola",
-            image: Iimage6
-         },
-         {
-            id: 7,
-            name: "Fanta",
-            image: Iimage1
-        },
-        {
-            id: 8,
-            name: "Sprite",
-            image: Iimage2
-        },
-        {
-            id: 9,
-            name: "shaurma",
-            image: Iimage3
-        },
-        {
-            id: 10,
-            name: "ramen",
-            image: Iimage4
-        },
-        {
-            id: 11,
-            name: "ramen",
-            image: Iimage5
-        },
-        {
-            id: 12,
-            name: "ramen",
-            image: Iimage6
-        },
-        {
-            id: 13,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 14,
-            name: "ramen",
-            image: Iimage2
-        },
-        {
-            id: 15,
-            name: "ramen",
-            image: Iimage3
-        },
-        {
-            id: 16,
-            name: "ramen",
-            image: Iimage4
-        },
-        {
-            id: 17,
-            name: "ramen",
-            image: Iimage5
-        },
-        {
-            id: 18,
-            name: "ramen",
-            image: Iimage6
-        },
-        {
-            id: 19,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 20,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 21,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 22,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 23,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 24,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 25,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 26,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 27,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 28,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 29,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 30,
-            name: "ramen",
-            image: Iimage1
-        },
-        {
-            id: 31,
-            name: "ramen",
-            image: Iimage2
-        },{
-            id: 32,
-            name: "ramen",
-            image: Iimage2
-        },
-        {
-            id: 33,
-            name: "ramen",
-            image: Iimage2
-        },
-        {
-            id: 34,
-            name: "ramen",
-            image: Iimage2
-        },
-        {
-            id: 35,
-            name: "ramen",
-            image: Iimage2
-        },
-        {
-            id: 36,
-            name: "ramen"
-        },
-        {
-            id: 37,
-            name: "ramen"
-        },
-        {
-            id: 38,
-            name: "ramen"
-        },
-        {
-            id: 39,
-            name: "ramen"
-        },
-        {
-            id: 40,
-            name: "ramen"
-        },
-        {
-            id: 41,
-            name: "ramen"
-        },
-        {
-            id: 42,
-            name: "ramen"
-        },
-        {
-            id: 43,
-            name: "ramen"
-        },
-        {
-            id: 44,
-            name: "ramen"
-        },
-        {
-            id: 45,
-            name: "ramen"
-        },
-        {
-            id: 46,
-            name: "ramen"
-        },
-        {
-            id: 47,
-            name: "ramen"
-        },
-        {
-            id: 48,
-            name: "ramen"
-        },
-        {
-            id: 49,
-            name: "ramen"
-        },
-        {
-            id: 50,
-            name: "ramen"
-        },
-        {
-            id: 51,
-            name: "ramen"
-        },
-        {
-            id: 52,
-            name: "ramen"
-        },
-        {
-            id: 53,
-            name: "ramen"
-        },
-        {
-            id: 54,
-            name: "ramen"
-        },
-        {
-            id: 55,
-            name: "ramen"
-        },
-        {
-            id: 56,
-            name: "ramen"
-        },
-        {
-            id: 57,
-            name: "ramen"
-        },
-        {
-            id: 58,
-            name: "ramen"
-        },
-        {
-            id: 59,
-            name: "ramen"
-        },
-        {
-            id: 60,
-            name: "ramen"
-        },
-        {
-            id: 61,
-            name: "ramen"
-        },
-        {
-            id: 62,
-            name: "ramen"
-        },
-        {
-            id: 63,
-            name: "ramen"
-        },
-        {
-            id: 64,
-            name: "ramen"
-        },
-        {
-            id: 65,
-            name: "ramen"
-        },
-        {
-            id: 66,
-            name: "ramen"
-        },
-        {
-            id: 67,
-            name: "ramen"
-        },{
-            id: 68,
-            name: "ramen"
-        },
-        {
-            id: 69,
-            name: "ramen"
-        },
-        {
-            id: 70,
-            name: "ramen"
-        },
-        {
-            id: 71,
-            name: "ramen"
-        },
-        {
-            id: 72,
-            name: "ramen"
-        },
-        {
-            id: 73,
-            name: "ramen"
-        },
-        {
-            id: 74,
-            name: "ramen"
-        },
-        {
-            id: 75,
-            name: "ramen"
-        },
-        {
-            id: 76,
-            name: "ramen"
-        },
-        {
-            id: 77,
-            name: "ramen"
-        },
-        {
-            id: 78,
-            name: "ramen"
-        },
-        {
-            id: 79,
-            name: "ramen"
-        },
-        {
-            id: 80,
-            name: "ramen"
-        },{
-            id: 81,
-            name:"ramen"
-        },
-        {
-            id:82,
-            name: "ramen"
-        },
-        {
-            id: 83,
-            name: "ramen"
-        },
-        {
-            id: 84,
-            name: "ramen"
-        },
-        {
-            id: 85,
-            name: "ramen"
-        },
-        {
-            id: 86,
-            name: "ramen"
-        },
-        {
-            id: 87,
-            name: "ramen"
-        },
-        {
-            id: 88,
-            name: "ramen"
-        },
-        {
-            id: 89,
-            name: "ramen"
-        },
-        {
-            id: 90,
-            name: "ramen"
-        },
-        {
-            id: 91,
-            name: "ramen"
-        },
-        {
-            id: 92,
-            name: "ramen"
-        },
-        {
-            id: 93,
-            name: "ramen"
-        },
-        {
-            id: 94,
-            name: "ramen"
-        },
-        {
-            id: 95,
-            name: "ramen"
-        },
-        {
-            id: 96,
-            name: "ramen"
-        },
-        {
-            id: 97,
-            name: "ramen"
-        },
-        {
-            id: 98,
-            name: "ramen"
-        },
-        {
-            id: 99,
-            name: "ramen"
-        },
-        {
-            id: 100,
-            name: "ramen"
-        },
-        {
-            id: 101,
-            name: "ramen"
-        },
-        {
-            id: 102,
-            name: "ramen"
-        },
-        {
-            id: 103,
-            name: "ramen"
-        },
-        {
-            id: 104,
-            name: "ramen"
-        },
-        {
-            id: 105,
-            name: "ramen"
-        },
-        {
-            id: 106,
-            name: "ramen"
-        },
-        {
-            id: 107,
-            name: "ramen"
-        },
         {
-            id: 108,
-            name: "ramen"
+          "name": "Толгоев Алишер",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWC_2UAdzHGR-mN6O2483iwxwHaH5RcJJK4kDMCuIq7RdEXpk91um4gmV3rIg6tJ36bIc&usqp=CAU",
+          "title": "Моя страсть — в создании уникальных, практичных интерфейсов. Повышаю эффективность проектов через инновации, улучшая стандарты пользовательского опыта.",
+          "target": "Я верю, что хороший дизайн и качественная функциональность идут рука об руку. Я стараюсь создавать интерфейсы, которые удовлетворяют потребности пользователей и выделяются на фоне конкурентов. Я считаю, что детали имеют значение, и в каждом проекте я стремлюсь к максимальной точности и продуманности.",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 0,
+          "sliceEnd": 5,
+          "id": "1"
+        },
+        {
+          "name": "Русланов Элдар",
+          "avatar": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZ96ZWtYyES440dLeXw6EO_xgpxuGI0a_G7fCvH_3_mKape9gG",
+          "title": "Я фронтенд-разработчик с опытом, создаю интерфейсы, где красота сочетается с удобством. Каждая строка кода - это искусство, каждый пиксель - взаимодействует.",
+          "target": "Фронтенд разработчик, и моя миссия - преобразовать красивый дизайн в интерактивную реальность. Я работаю на стыке творчества и технологии, создавая визуальные впечатления, которые заставляют пользователей влюбляться в интерфейс. Мой код - это не просто строки исходного текста, это ключ к потрясающему пользовательскому опыту. Погрузись в мир моих веб-страниц, где каждый пиксель задуман, а каждая анимация - часть виртуозного танца технологии и дизайна. Добро пожаловать в мое веб-пространство, где красота встречает функциональность, а пользователи ощущают волшебство при каждом нажатии клавиши",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 3,
+          "sliceEnd": 14,
+          "id": "2"
+        },
+        {
+          "name": "Токтобек уулу Сыймык",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiPq1iKoBc701Bpn9wJzEheSCeiNlz-vaCRflpry18KNjQpNBQsQZ3UcHr7fv-LCwWAbY&usqp=CAU",
+          "title": "Опытный фронтенд-разработчик, создаю высокопроизводительные веб-приложения, интегрирую последние технологии для выдающегося пользовательского опыта.",
+          "target": "Я верю, что хороший дизайн и качественная функциональность идут рука об руку. Я стараюсь создавать интерфейсы, которые удовлетворяют потребности пользователей и выделяются на фоне конкурентов. Я считаю, что детали имеют значение, и в каждом проекте я стремлюсь к максимальной точности и продуманности.",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 3,
+          "sliceEnd": 14,
+          "id": "3"
+        },
+        {
+          "name": "Кайраткелдиев Санжар",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOq1vRJTGZwBXwgKFuJiOhiNuF9L1S8PilIp3hB5XSdrJurP0YapiZnQuITno3oV3b3c&usqp=CAU",
+          "title": "Создаю уникальные пользовательские интерфейсы, интегрируя инновации для повышения эффективности в проектах и обеспечивая неповторимый опыт пользователям.",
+          "target": "Я верю, что хороший дизайн и качественная функциональность идут рука об руку. Я стараюсь создавать интерфейсы, которые удовлетворяют потребности пользователей и выделяются на фоне конкурентов. Я считаю, что детали имеют значение, и в каждом проекте я стремлюсь к максимальной точности и продуманности.",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 3,
+          "sliceEnd": 14,
+          "id": "4"
+        },
+        {
+          "name": "Мейманбеков Умар",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo9eXnh6LGZa6ENpSdDPlhaQ3iusobirGInCnXHJhi3zXgw9HCIjSzdKG1M8Gh0DhPsnQ&usqp=CAU",
+          "title": "Развиваю уникальные и инновационные пользовательские интерфейсы, стремясь повысить эффективность проектов и создать неповторимые впечатления.",
+          "target": "Я верю, что хороший дизайн и качественная функциональность идут рука об руку. Я стараюсь создавать интерфейсы, которые удовлетворяют потребности пользователей и выделяются на фоне конкурентов. Я считаю, что детали имеют значение, и в каждом проекте я стремлюсь к максимальной точности и продуманности.",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 3,
+          "sliceEnd": 17,
+          "id": "5"
+        },
+        {
+          "name": "Жумантаева Нураиса",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI_SXwRcS2ppMdcpZrN_h2K-EbupL1QBW4Kw&usqp=CAU",
+          "title": "Развиваю уникальные и инновационные пользовательские интерфейсы, стремясь повысить эффективность проектов и создать неповторимые впечатления.",
+          "target": "Я верю, что хороший дизайн и качественная функциональность идут рука об руку. Я стараюсь создавать интерфейсы, которые удовлетворяют потребности пользователей и выделяются на фоне конкурентов. Я считаю, что детали имеют значение, и в каждом проекте я стремлюсь к максимальной точности и продуманности.",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 3,
+          "sliceEnd": 17,
+          "id": "6"
+        },
+        {
+          "name": "Мидинов Мунарбек",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM17y6K8iCv8GAFR3MYF5YMGub1Riw4IfXnxbHFoNGH2WYiJVe_uN7JlTzgF8SVnjf6F0&usqp=CAU",
+          "title": "Опытный бэкенд-разработчик с фокусом на Python, Django и PostgreSQL, создаю мощные серверные компоненты с надежностью, эффективностью и инновациями.",
+          "target": "Я верю, что хороший дизайн и качественная функциональность идут рука об руку. Я стараюсь создавать интерфейсы, которые удовлетворяют потребности пользователей и выделяются на фоне конкурентов. Я считаю, что детали имеют значение, и в каждом проекте я стремлюсь к максимальной точности и продуманности.",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 3,
+          "sliceEnd": 17,
+          "id": "7"
+        },
+        {
+          "name": "Мухаммед",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWC_2UAdzHGR-mN6O2483iwxwHaH5RcJJK4kDMCuIq7RdEXpk91um4gmV3rIg6tJ36bIc&usqp=CAU",
+          "title": "Опытный фронтенд-разработчик, создаю высокопроизводительные веб-приложения, интегрирую последние технологии для выдающегося пользовательского опыта.",
+          "target": "Я верю, что хороший дизайн и качественная функциональность идут рука об руку. Я стараюсь создавать интерфейсы, которые удовлетворяют потребности пользователей и выделяются на фоне конкурентов. Я считаю, что детали имеют значение, и в каждом проекте я стремлюсь к максимальной точности и продуманности.",
+          "skills": [
+            {
+              "skill": "Ant Design - это мощная библиотека для создания современных интерфейсов в React."
+            },
+            {
+              "skill": "UX/UI - это два взаимосвязанных, но различных аспекта дизайна веб-сайтов."
+            },
+            {
+              "skill": "HTML -  является основным языком разметки, который определяет структуру веб-страницы."
+            },
+            {
+              "skill": "CSS - используется для стилизации HTML-элементов."
+            },
+            {
+              "skill": "SCSS (Sass) - препроцессор CSS, который позволяет использовать переменные, вложенные правила, миксины и многие другие возможности."
+            },
+            {
+              "skill": "React - разработка компонентов, хуки, контексты и другие основные функции React."
+            },
+            {
+              "skill": "Next.js - создание серверно-рендерируемых приложений и статических сайтов."
+            },
+            {
+              "skill": "Redux - управление глобальным состоянием приложения."
+            },
+            {
+              "skill": "TailwindCSS - быстрое создание адаптивных дизайнов с максимальной гибкостью."
+            },
+            {
+              "skill": "TypeScript - статическая типизация для повышения надежности кода."
+            },
+            {
+              "skill": "JavaScript (ES6+) - знание основ и новых возможностей языка."
+            },
+            {
+              "skill": "Git - система контроля версий, команды, ветвление и слияние."
+            },
+            {
+              "skill": "Rest API - это набор методов и функций, предоставляемых React."
+            },
+            {
+              "skill": "Firebase - разработка и интеграция приложений с использованием облачных служб."
+            },
+            {
+              "skill": "Supabase - открытая альтернатива Firebase, предоставляющая инструменты для баз данных и аутентификации."
+            },
+            {
+              "skill": "jQuery - библиотека JavaScript, упрощающая взаимодействие с DOM, обработку событий и анимацию."
+            },
+            {
+              "skill": "PostgreSQL - это мощная и открытая объектно-реляционная система управления базами данных (ORDBMS)."
+            },
+            {
+              "skill": "Redux Toolkit -  это официальный пакет инструментов для более удобного и эффективного использования библиотеки."
+            },
+            {
+              "skill": "MySQL - это свободная и открытая система управления базами данных "
+            },
+            {
+              "skill": "Python - это высокоуровневый, интерпретируемый язык программирования общего назначения."
+            },
+            {
+              "skill": "Django - это бесплатный и открытый фреймворк для веб-разработки на языке программирования Python."
+            }
+          ],
+          "images": [
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJn9uG-cNlPcXyVwGPa51aI69Udhyub9lxSDhBiLiG8Xq8vB_l"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVlQc5AhVAvqjdr8gbC438lT3-Ik9SeU2iGuZI0EKoq0ED9vv"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS901FRQfCYNQID1yy-ChhiGSRYxPi14vSoKFLZuSLuH8LYDitU"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D0jwOFY9FYS5QKirMcPFAJxdQrPMyCf3YNVypUzVm5GI8SOI"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLHLTpGcTkgmXjQLARRkYrweUbh27jxuGvm5GluPCbJ7Cb3-dS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSSQLaJn09xYtPiac1Hhz2D5ritA6IZkNUuZKicSs5SZjHxWfm"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXY-zoBxx6cXYUSEe9o_Qpy7w7VOmJE6gmxSALosiTYa1bF8g"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAHHprN89ARiqheO9pM6O5eIXwHhWkFQKVuAG62kH8QvO5wNt"
+            },
+            {
+              "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRdPSHX8EgeNx8QjRSkH0cJmIdSxqhJPl9LUZZxyksjzvvViMa"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGABmc-HVQH3IwIF1TjrEuQQMh5-C-x5P7xmSLKdZhrYoDndba"
+            },
+            {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIv-zqIO16qdb4RNQJWpz6YkLTts1DAA3qaZsls6Sw1edn_oE"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEu7EP2rV19uPBun5nVyyCo8fzg91eZpLD1S8cDbOL6_WwF_Md"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7HdlK1H6OcWBx920WajBr1LnKiarnoMeIuIVU54a_S_qOHJGM"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSegm9nU-wdZKAsct7m-_b87l2YeLsEpUuIXoutZDX2IUZ5A1_1"
+            },
+            {
+              "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkr2AghUapIpbK8r5w8_QQc0p39diNabxY1-rDNxPDvj3_NDrS"
+            },
+            {
+              "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfudGTSvJqhp8reg06DNaU_Q6UdjRHQf7-5wUm89DaUtH-vNNH"
+            }
+          ],
+          "sliceStart": 3,
+          "sliceEnd": 17,
+          "id": "8"
         }
-        ])
+      ]
+        )
 }
