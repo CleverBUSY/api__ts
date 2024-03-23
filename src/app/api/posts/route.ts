@@ -18,14 +18,15 @@ export async function GET(req: Request) {
         }
     ];
 
-    function hideAvatar(person) {
+    function hideAvatar(person: { avatar: string }) {
         person.avatar = "";
     }
-    function startTimer(person) {
+
+    function startTimer(person: { timer: number }) {
         setTimeout(() => hideAvatar(person), person.timer); 
     }
-
-    response.forEach(person => startTimer(person));
+    
+    response.forEach((person: { avatar: string, timer: number }) => startTimer(person));
 
     return NextResponse.json(response);
 }
